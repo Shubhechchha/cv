@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
+import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/js/materialize.min.js';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Navbar from './components/Navbar';
+import Education from './components/Education';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Profile from './components/Profile';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Routes>
+    
+    <Route path="/" element= {<Home/>} />
+    <Route path = "/About" element = {<About/>} />
+    <Route path = "/Navbar" element = {<Navbar/>} />
+    <Route path = "/Education" element = {<Education />} />
+    <Route path = "/Experience" element = {<Experience/>} />
+    <Route path = "/Skills"  element = {<Skills/>} />
+    <Route path = "/Profile" element = {<Profile />} />
+    
+     
+
+    
+   </Routes>
   );
 }
 
