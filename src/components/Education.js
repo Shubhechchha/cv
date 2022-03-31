@@ -70,7 +70,7 @@ const educationData = [
             </thead>
             <tbody>
              {educationData.map( education => (
-               <ToggledEducationRow 
+               <ToggledEducationRow
                 education={education} 
                 toggleDesp={toggleDesp} 
                 clickedButtonId={clickedButtonId} 

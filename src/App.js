@@ -5,7 +5,6 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
-import Navbar from './components/Navbar';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
@@ -19,7 +18,6 @@ function App() {
     
     <Route path="/" element= {<Home/>} />
     <Route path = "/About" element = {<About/>} />
-    <Route path = "/Navbar" element = {<Navbar/>} />
     <Route path = "/Education" element = {<Education />} />
     <Route path = "/Experience" element = {<Experience/>} />
     <Route path = "/Skills"  element = {<Skills/>} />
