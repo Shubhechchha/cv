@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import '../App.css';
+import ToggledEducationRow from './ToggledEducationRow';
 
 
 
@@ -19,7 +20,12 @@ const educationData = [
     university : "IT University of Copenhagen, Denmark",
     course : "Master of Science in Digital Innovation and Management",
     duration : "08.2017-09.2019",
-    description: "Digital Change-Management Process management, IT-Governance. Master thesis: Analysis of Customer Queuing psychology on an online Queue Management System using a case of company Queue-it, Note: 10 (from overall 12)"
+    description: [
+      "Digital Change-Management", 
+      "Process management", 
+      "IT-Governance",
+       "Master thesis: Analysis of Customer Queuing psychology on an online Queue Management System using a case of company Queue-it, Note: 10 (from overall 12)"
+      ]
   },
 
   {
@@ -27,7 +33,11 @@ const educationData = [
     university : "Hanyang University Seoul, South Korea",
     course : "Master Exchange Semester",
     duration : "09.2018-12.2018",
-    description: "Web Designing,Consumer Behavior,Organizational Behavior"
+    description: [
+      "Web Designing",
+      "Consumer Behavior",
+      "Organizational Behavior"
+    ]
   },
   
   {
@@ -35,7 +45,12 @@ const educationData = [
     university : "St.Xaviers College, Kathmandu, Nepal",
     course : "Bachelor in Information and Management",
     duration : "10.2012-09.2016",
-    description: "Business Communication,Operations management,Database Management System,Critical Thinking and decision making"
+    description: [
+      "Business Communication",
+      "Operations management",
+      "Database Management System",
+      "Critical Thinking and decision making"
+    ]
   },
 
 ]
@@ -54,19 +69,13 @@ const educationData = [
               </tr>
             </thead>
             <tbody>
-             {educationData.map( d => (
-               <React.Fragment key = {d.id}>
-              <tr>
-                <td>{d.university}</td>
-                <td>{d.course}</td>
-                <td>{d.duration}</td>
-                <td><button className='btn blue lighten-2' onClick={() => showHideDesp(d.id, !toggleDesp)}>View</button></td>
-              </tr>
-              {clickedButtonId === d.id && toggleDesp && <tr className='additional-info'>
-                <td colSpan= "2">{d.description}</td>
-              </tr>}
-              
-              </React.Fragment>
+             {educationData.map( education => (
+               <ToggledEducationRow 
+                education={education} 
+                toggleDesp={toggleDesp} 
+                clickedButtonId={clickedButtonId} 
+                showHideDesp={showHideDesp}
+                />
              ))}
               
             </tbody>

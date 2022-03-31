@@ -12,6 +12,7 @@
   border:  1px solid #047a43 !important;
   color: rgb(26, 24, 24);
   height: 700px;
+  overflow: auto;
 }
 
 .button {
