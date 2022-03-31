@@ -3,21 +3,24 @@ import Profile from './Profile';
 import Skills from './Skills';
 import Experience from './Experience';
 import Education from './Education';
-import Navbar from './Navbar';
 import About from './About';
+import Contact from './Contact';
 
 const Home = () => {
   return (
      <section>
-         <Navbar />
          <div className='container'>
-             <div className='row'>
-                 <div className='col s12 m3'>
+             <div className='row sameHeight'>
+                 <div className='col s12 m12 l4  white  sameHeight_child'>
                     <Profile/>
+                    <Contact />
+                    <Skills/>
+
+
                  </div>
-                 <div className='col s12 m9'>
-                    <About/>
-                    <Skills />
+                 <div className='col s12 m12 l8 white sameHeight_child '>
+                 <About/>
+
                     <Experience />
                     <Education />
                  </div>
@@ -28,4 +31,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
