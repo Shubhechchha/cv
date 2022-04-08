@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
 
 const Experience = () => {
   return (
     <div>
-    <div className='card'>
+    
       <div className='card-content'>
-        <h6><strong>EXPERIENCE</strong></h6>
+        <h6 className='sub_title'>EXPERIENCE</h6>
         <div className='row'>
           <div className='col s12 m4 l4 xl4'>
-            <p className='teal year_exp white-text'>
+            <p className='year_exp black-text'>
             <strong>07.2021</strong> -
             <strong>current</strong> <br/>
              Company: envoke.tech, Kathmandu, Nepal (Remote Job)
@@ -31,7 +32,7 @@ const Experience = () => {
 
         <div className='row'>
           <div className='col s12 m4 l4 xl4'>
-            <p className='teal year_exp white-text'>
+            <p className='year_exp black-text'>
             <strong>02.2019</strong> -
             <strong>06.2019</strong> <br/>
               Company: Queue-it, Copenhagen, Denmark
@@ -52,7 +53,7 @@ const Experience = () => {
         
         <div className='row'>
           <div className='col s12 m4 l4 xl4'>
-            <p className='teal year_exp white-text'>
+            <p className='year_exp black-text'>
             <strong>12.2017</strong> -
             <strong>03.2018</strong> <br/>
              Company: ProOwnedCycling, Copenhagen, Denmark
@@ -73,7 +74,7 @@ const Experience = () => {
 
         <div className='row'>
           <div className='col s12 m4 l4 xl4'>
-            <p className='teal year_exp white-text'>
+            <p className='year_exp black-text'>
             <strong>08.2016</strong> -
             <strong>03.2017</strong> <br/>
              Company: Softech Foundation Pvt.ltd, Kathmandu, Nepal
@@ -92,7 +93,7 @@ const Experience = () => {
           </div>
         </div> 
       </div>
-    </div>
+    
     </div>
   )
 }

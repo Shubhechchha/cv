@@ -1,9 +1,10 @@
 import React from 'react';
+import '../App.css';
 
 
 const Courses = () => {
 
-    const CourseList = [
+    const courseList = [
 
         {
             id: 1,
@@ -46,40 +47,38 @@ const Courses = () => {
     return (
     
     <div>
-        <div className='card grey lighten-3'>
-                <div className='card-content'>
+        <div className='card brown darken-3'>
+                <div className='card-content white-text'>
                     <p>Migrated to Deutschland
                         (10.2019-07.2020)
                      </p>
                 </div>
             </div>
  
-            <div className='card card-custom grey lighten-3' style={{height: '100%', overflow: 'auto'}}>
-            <div className='card-content'>
-            <h6 className='mt-bottom'>
-            <strong>
+            <div className='card card-custom brown darken-3'>
+            <div className='card-courses'>
+            <h6 className='sub_title'>
                     COURSES
-                </strong>
             </h6>
-            <div className='col s12 m8 l9'>
-            <table className='highlight'>
-            	    <thead>
-                        <tr>
-                            <th>Course</th>
-                            <th>Duration</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    {CourseList.map((c) => 
-                        <React.Fragment key={c.id}>
-                        <tr>
-                         <td>{c.course}</td> 
-                         <td>{c.duration}</td> 
-                        </tr>
-                    </React.Fragment>
-                     )}   
-            </tbody>
-            </table>
+            <div className='col s12'>
+              <table className='highlight'>
+                    <thead>
+                          <tr>
+                              <th>Course</th>
+                              <th>Duration</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        {courseList.map((c) => 
+                            <React.Fragment key={c.id}>
+                            <tr>
+                            <td>{c.course}</td> 
+                            <td>{c.duration}</td> 
+                            </tr>
+                        </React.Fragment>
+                        )}   
+                      </tbody>
+              </table>
             </div>  
             </div>  
             </div>

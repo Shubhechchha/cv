@@ -2,8 +2,8 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='card'>
-      <div className='card-content'>
+    <div className='card brown darken-3'>
+      <div className='card-content white-text'>
         <h6>
           <strong>
             TECHNICAL SKILLS
