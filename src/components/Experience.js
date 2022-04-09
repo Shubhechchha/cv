@@ -6,7 +6,7 @@ const Experience = () => {
     <div>
     
       <div className='card-content'>
-        <h6 className='sub_title'>EXPERIENCE</h6>
+        <h4 className='sub_title'>EXPERIENCE</h4>
         <div className='row'>
           <div className='col s12 m4 l4 xl4'>
             <p className='year_exp black-text'>
@@ -20,10 +20,10 @@ const Experience = () => {
               <h6 className='no-pad mt-bottom'>
                 <strong>Front End Developer</strong>
               </h6>
-              <p>Develop frontend applications using HTML, CSS, and Javascript
-                Test application across different devices
-                Write unit test using Mocha and Chai
-                Manage code using git as a version control system
+              <p>Develop frontend applications using HTML, CSS, and Javascript,
+                Test application across different devices,
+                Write unit test using Mocha and Chai,
+                Manage code using git as a version control system,
                 Plan tasks adhering to Scrum philosophy
               </p>
             </blockquote> 

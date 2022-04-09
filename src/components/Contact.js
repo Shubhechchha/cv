@@ -13,14 +13,25 @@ const Contact = () => {
         <p className="white-text text-lighten-3 pt">
         <i className="fas fa-map-marker-alt"></i> Balthasar Neumann Platz-1, Brühl 50321
         </p>
+
         <p className="white-text text-lighten-3 pt">
         <i className="fa-solid fa-phone"></i> +49 172 716 2305
-        <br/>
+        </p>
+        
+        <p>
         <a href="https://gmail.com" mailto="dahal.shubhechchha@gmail.com" target='blank'>
         <i className="fa-solid fa-envelope"></i> dahal.shubhechchha@gmail.com
-        </a>
-         
+        </a>  
         </p>
+
+        <p className="white-text text-lighten-3 pt">
+        <a href="https://linkedin.com" target= "blank">
+        <i className="fab fa-linkedin-in"> linkedin.com/in/shubhechchha-dahal</i>
+        </a>
+        </p>
+
+
+
  
  
     </div>

@@ -59,7 +59,7 @@ const educationData = [
     <div>
       
         <div className='card-content'>
-          <h6 className='sub_title'>EDUCATIONS</h6>
+          <h4 className='sub_title'>EDUCATIONS</h4>
           <table className='stripped'>
             <thead>
               <tr>

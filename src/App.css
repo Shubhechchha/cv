@@ -29,16 +29,16 @@
 }
 
 .mt-bottom {
-    margin-bottom: 10px;
-    
+    margin-top: 0px;
 }
 
 .sub_title {
-    margin: 25px 0 20px 0;
+    margin: 50px 0 12px 0;
     text-align: center;
     font-weight: bolder;
     font-size: larger;
 }
+
 
 .card-courses {
     width: -moz-fit-content;
@@ -46,21 +46,12 @@
     color: white;
 }
 
-.card-courses-content {
-    justify-content: center;
-}
 
 .card-image {
    border-radius: 400%;
    max-width: 50%;
-   margin: 20px 120px 15px 95px;
+   margin: auto;
 }
 
-.valign-wrapper {
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
-}
+
+
