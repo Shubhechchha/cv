@@ -12,7 +12,7 @@ const Home = () => {
      <section>
          <div className='container'>
              <div className='row sameHeight'>
-                 <div className='col s12 m12 l4  brown darken-3  sameHeight_child'>
+                 <div className='col s12 m12 l4 brown darken-3'>
                     <Profile/>
                     <Contact />
                     <Skills/>
@@ -20,7 +20,7 @@ const Home = () => {
                     </div>
 
                   
-                 <div className='col s12 m12 l8 grey lighten-2 sameHeight_child '>
+                 <div className='col s12 m12 l8 grey lighten-2'>
                     <About/>
                     <Experience />
                     <Education />

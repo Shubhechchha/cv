@@ -60,6 +60,7 @@ const Courses = () => {
             <h6 className='sub_title'>
                     COURSES
             </h6>
+            <hr />
             <div className='col s12'>
               <table className='highlight'>
                     <thead>

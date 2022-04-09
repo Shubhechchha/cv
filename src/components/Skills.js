@@ -9,6 +9,7 @@ const Skills = () => {
             TECHNICAL SKILLS
           </strong>
         </h6>
+        <hr />
         <div className='row mt-top'>
           <div className='col s6'>
             <p>HTML</p>
