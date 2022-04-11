@@ -23,9 +23,8 @@ const Profile = () => {
           					ABOUT ME
         				</strong>
         				</h4>
-        				<p className='black-text'>I am a highly motivated and diligent innovation management graduate. 
-       						 My studies have given me a thorough understanding of digital business processes and IT Governance through practical use cases. 
-        						I aspire to put my knowledge into practice in a fast-paced business environment.</p>
+        				<p className='black-text'>An enthusiastic Front-end developer with a with proven skills and knowledge of using HTML, CSS, JavaScript and ReactJS. 
+						I am passionate about exploring new technologies, self improvement and leveraging skills. .</p>
        </div>
     </div>
 		    

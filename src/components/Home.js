@@ -6,6 +6,7 @@ import Education from './Education';
 import About from './About';
 import Contact from './Contact';
 import Courses from './Courses';
+import Links from './links';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
                  <div className='col s12 m12 l4 brown darken-3'>
                     <Profile/>
                     <Contact />
+                    <Links/>
                     <Skills/>
                     <Courses />
                     </div>

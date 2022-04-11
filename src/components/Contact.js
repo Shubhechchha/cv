@@ -23,17 +23,6 @@ const Contact = () => {
         <i className="fa-solid fa-envelope"></i> dahal.shubhechchha@gmail.com
         </a>  
         </p>
-
-        <p className="white-text text-lighten-3 pt">
-        <a href="https://linkedin.com" target= "blank">
-        <i className="fab fa-linkedin-in"> linkedin.com/in/shubhechchha-dahal</i>
-        </a>
-        </p>
-
-
-
- 
- 
     </div>
     </div>
 </div>
