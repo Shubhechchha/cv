@@ -23,8 +23,8 @@ const Profile = () => {
           					ABOUT ME
         				</strong>
         				</h4>
-        				<p className='black-text'>An enthusiastic Front-end developer with a with proven skills and knowledge of using HTML, CSS, JavaScript and ReactJS. 
-						I am passionate about exploring new technologies, self improvement and leveraging skills. .</p>
+        				<p className='black-text'> An enthusiastic Front-end developer with proven skills and knowledge of using HTML, CSS, JavaScript, and ReactJS. 
+        I am passionate about exploring new technologies, self-improvement, and leveraging skills.</p>
        </div>
     </div>
 		    
