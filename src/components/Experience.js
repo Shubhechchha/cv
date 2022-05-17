@@ -10,7 +10,7 @@ const Experience = () => {
         <div className='row'>
           <div className='col s12 m4 l4 xl4'>
             <p className='year_exp black-text'>
-            <strong>07.2021</strong> -
+            <strong>01.2021</strong> -
             <strong>current</strong> <br/>
              Company: envoke.tech, Kathmandu, Nepal (Remote Job)
             </p>
