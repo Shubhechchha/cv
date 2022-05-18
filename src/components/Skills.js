@@ -11,22 +11,7 @@ const Skills = () => {
         </h6>
         <hr />
         <div className='row mt-top'>
-          <div className='col s6'>
-            <p>HTML</p>
-            <div className='progress grey lighten-1'>
-            <div className='determinate blue' 
-               style={{width: '90%'}}>
-               </div>
-            </div>
-          </div>
-          <div className='col s6'>
-            <p>CSS</p>
-            <div className='progress grey lighten-1'>
-            <div className='determinate blue' 
-               style={{width: '80%'}}>
-               </div>
-            </div>
-          </div>
+          
           <div className='col s6'>
             <p>JAVASCRIPT</p>
             <div className='progress grey lighten-1'>
@@ -36,7 +21,7 @@ const Skills = () => {
             </div>
           </div>
           <div className='col s6'>
-            <p>REACT</p>
+            <p>ReactJS</p>
             <div className='progress grey lighten-1'>
             <div className='determinate blue' 
                style={{width: '75%'}}>
@@ -44,7 +29,7 @@ const Skills = () => {
             </div>
           </div>
           <div className='col s6'>
-            <p>GRAPHIC DESIGNING</p>
+            <p>HTML5</p>
             <div className='progress grey lighten-1'>
             <div className='determinate blue' 
                style={{width: '90%'}}>
@@ -52,10 +37,26 @@ const Skills = () => {
             </div>
           </div>
           <div className='col s6'>
-            <p>WORDPRESS</p>
+            <p>CSS3</p>
             <div className='progress grey lighten-1'>
                <div className='determinate blue' 
-               style={{width: '80%'}}>
+               style={{width: '90%'}}>
+               </div>
+            </div>
+          </div>
+          <div className='col s6'>
+            <p>Graphic Designing (Figma, AdobeXD)</p>
+            <div className='progress grey lighten-1'>
+            <div className='determinate blue' 
+               style={{width: '90%'}}>
+               </div>
+            </div>
+          </div>
+          <div className='col s6'>
+            <p>Data visualization tools : Tableau, Google Charts</p>
+            <div className='progress grey lighten-1'>
+            <div className='determinate blue' 
+               style={{width: '70%'}}>
                </div>
             </div>
           </div>

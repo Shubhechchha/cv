@@ -46,10 +46,11 @@ const educationData = [
     course : "Bachelor in Information and Management",
     duration : "10.2012-09.2016",
     description: [
-      "Business Communication",
-      "Operations management",
-      "Database Management System",
-      "Critical Thinking and decision making"
+      "Economics of Information and Communication",
+      "Sociology",
+      "Software Engineering",
+      "Critical Thinking and decision making",
+      "Psychology"
     ]
   },
 

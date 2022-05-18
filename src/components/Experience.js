@@ -44,8 +44,8 @@ const Experience = () => {
                 <strong>Working student Master </strong>
               </h6>
               <p>Gathered different forms of data from the company and digital platforms to understand customer behavior,
-                 Proposed probable solutions to help businesses avoid conflicts arising in digital queues 
-                 The research thus contributed to understanding the effect of any digital system in different types of businesses.
+                 Performed extensive research with both qualitative and quantitative methods,
+                 Created affinity diagrams and mind maps to analyze customers' pain points in digital queues
               </p>
             </blockquote> 
           </div>
@@ -65,8 +65,9 @@ const Experience = () => {
                 <strong>Intern in Digital Marketing </strong>
               </h6>
               <p>Social-Media Marketing,
-                Google-Keyword-Analyse,
-                Creation of Storyboards, Personas und Flyers
+                 User experience and market research,
+                 Creation of Storyboards, Personas, Flyers, and site map with Figma
+
               </p>
             </blockquote> 
           </div>
@@ -85,9 +86,8 @@ const Experience = () => {
               <h6 className='no-pad mt-bottom'>
                 <strong>Intern as UX Designer </strong>
               </h6>
-              <p>User research,
-                 Creation of user flows and journey,
-                 Product timeline and site map creation with Figma
+              <p>Creation of user flows and journey and production timeline,
+                 Basics of HTML, CSS and WordPress 
               </p>
             </blockquote> 
           </div>

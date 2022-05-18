@@ -11,8 +11,9 @@ const About = () => {
           ABOUT ME
         
         </h4>
-        <p className='black-text'>  An enthusiastic Front-end developer with proven skills and knowledge of using HTML, CSS, JavaScript, and ReactJS. 
-        I am passionate about exploring new technologies, self-improvement, and leveraging skills. </p>
+        <p className='black-text'>  I am an enthusiastic web designer with proven experience in investigating effective ways to improvise end-user interactions. 
+        I have a sound knowledge of using HTML, CSS, JavaScript, and ReactJS. I am passionate about exploring new technologies, self-improvement, and leveraging skills. 
+       </p>
        </div>
        <hr />
     </div>
