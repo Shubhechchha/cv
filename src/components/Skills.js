@@ -13,53 +13,23 @@ const Skills = () => {
         <div className='row mt-top'>
           
           <div className='col s6'>
-            <p>JAVASCRIPT</p>
-            <div className='progress grey lighten-1'>
-            <div className='determinate blue' 
-               style={{width: '75%'}}>
-               </div>
-            </div>
+            <p>React 16+</p> <br/>
+            <p>JS | ES6</p> <br/>
+            <p>NodeJS</p> <br/>
+            <p>User Experience</p> <br/>
           </div>
           <div className='col s6'>
-            <p>ReactJS</p>
-            <div className='progress grey lighten-1'>
-            <div className='determinate blue' 
-               style={{width: '75%'}}>
-               </div>
+            <p> Redux</p> <br/>
+            <p>Context API</p> <br/>
+            <p>CSS | SCSS | LESS</p> <br/>
+            <p>Microfrontend</p><br/> 
+           </div>
+            
+            <div className='col s12'>
+            <p>Responsive design | Mobile first</p> <br/>
+             <p> Jest | Enzyme | React Testing Utils</p>
             </div>
-          </div>
-          <div className='col s6'>
-            <p>HTML5</p>
-            <div className='progress grey lighten-1'>
-            <div className='determinate blue' 
-               style={{width: '90%'}}>
-               </div>
-            </div>
-          </div>
-          <div className='col s6'>
-            <p>CSS3</p>
-            <div className='progress grey lighten-1'>
-               <div className='determinate blue' 
-               style={{width: '90%'}}>
-               </div>
-            </div>
-          </div>
-          <div className='col s6'>
-            <p>Graphic Designing (Figma, AdobeXD)</p>
-            <div className='progress grey lighten-1'>
-            <div className='determinate blue' 
-               style={{width: '90%'}}>
-               </div>
-            </div>
-          </div>
-          <div className='col s6'>
-            <p>Data visualization tools : Tableau, Google Charts</p>
-            <div className='progress grey lighten-1'>
-            <div className='determinate blue' 
-               style={{width: '70%'}}>
-               </div>
-            </div>
-          </div>
+            
         </div>
       </div>
     </div>
